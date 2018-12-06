@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AscrModelingWinFormInterface", "AscrModelingWinFormInterface\AscrModelingWinFormInterface.csproj", "{F27A8607-0354-413F-8831-E0B359EE2FE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AscrModelingMatrixesClassLibrary", "AscrModelingMatrixesClassLibrary\AscrModelingMatrixesClassLibrary.csproj", "{04129E76-F411-4FAA-9E7F-0942EDCD6E82}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F27A8607-0354-413F-8831-E0B359EE2FE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F27A8607-0354-413F-8831-E0B359EE2FE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F27A8607-0354-413F-8831-E0B359EE2FE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F27A8607-0354-413F-8831-E0B359EE2FE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04129E76-F411-4FAA-9E7F-0942EDCD6E82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04129E76-F411-4FAA-9E7F-0942EDCD6E82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04129E76-F411-4FAA-9E7F-0942EDCD6E82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04129E76-F411-4FAA-9E7F-0942EDCD6E82}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2E24CDFB-8E1B-41AB-866B-0C34B926A1E5}
+	EndGlobalSection
+EndGlobal
