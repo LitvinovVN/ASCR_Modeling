@@ -26,6 +26,9 @@ namespace AscrModelingWinFormInterface
             stopWatch.Restart();
             MatrixCSR mCsr = new MatrixCSR(10, 3);
             stopWatch.Stop();
+
+            PerformanceCounter _ramCounter = new PerformanceCounter("Memory", "Available MBytes");
+            MessageBox.Show(_ramCounter.NextValue() + "Мб","Количество свободной оперативной памяти",MessageBoxButtons.OK);
         }
     }
 }
